@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "942491935902",
+    "firebase_url": "https://reactnative-firebase-8bc12-default-rtdb.firebaseio.com",
+    "project_id": "reactnative-firebase-8bc12",
+    "storage_bucket": "reactnative-firebase-8bc12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942491935902:android:e9ab2bb114d8fdd586c78f",
+        "android_client_info": {
+          "package_name": "com.tech_ansena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942491935902-1ftdpfsl4bghlajnqdnsmd8le8r94tu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6uuzjICHijNXzXkR9zRiKJb_Ka8trZqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942491935902-1ftdpfsl4bghlajnqdnsmd8le8r94tu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
