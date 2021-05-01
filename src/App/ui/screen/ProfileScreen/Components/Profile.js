@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useSelector} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import ProfileIcon from '@app/ui/assets/Profile_Tab.svg';
 
 const Profile = () => {
+  const profileReducer = useSelector(state => state);
+  console.log(profileReducer);
   return (
     <View style={styles.container}>
       <Text style={styles.title}>About Me</Text>

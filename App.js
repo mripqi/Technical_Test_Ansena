@@ -7,6 +7,9 @@ import AppNavigation from './src/AppNavigation';
 import PushNotificationIOS from '@react-native-community/push-notification-ios';
 import PushNotification from 'react-native-push-notification';
 import Firebase from '@react-native-firebase/app';
+import {Provider} from 'react-redux';
+import {store} from '@app/redux';
+
 const App = () => {
   useEffect(() => {
     Firebase.initializeApp();
@@ -63,9 +66,11 @@ const App = () => {
 
   return (
     <SafeAreaProvider>
-      <NavigationContainer>
-        <AppNavigation />
-      </NavigationContainer>
+      <Provider store={store}>
+        <NavigationContainer>
+          <AppNavigation />
+        </NavigationContainer>
+      </Provider>
     </SafeAreaProvider>
   );
 };
